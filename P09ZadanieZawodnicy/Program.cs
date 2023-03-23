@@ -37,7 +37,8 @@ namespace P09ZadanieZawodnicy
             if (!Directory.Exists(sciezkaWynik))
                 Directory.CreateDirectory(sciezkaWynik);
 
-            File.WriteAllLines(sciezkaWynik + $"\\{kraj}.txt", zawodnicy);
+            if(!File.Exists(sciezkaWynik + $"\\{kraj}.txt")) 
+                File.WriteAllLines(sciezkaWynik + $"\\{kraj}.txt", zawodnicy);
 
         }
     }
