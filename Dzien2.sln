@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01NarzedzieWebClient", "P0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02ZadaniePogoda", "P02ZadaniePogoda\P02ZadaniePogoda.csproj", "{640C761A-B036-40CD-8226-95D2E12E4466}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03ObslugaBledow", "P03ObslugaBledow\P03ObslugaBledow.csproj", "{CF88E8B9-E357-4BA8-A932-B49B8FBE4685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04Tablice", "P04Tablice\P04Tablice.csproj", "{04397684-D1C5-45A7-A4EC-CF43B9B4DB0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{640C761A-B036-40CD-8226-95D2E12E4466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{640C761A-B036-40CD-8226-95D2E12E4466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{640C761A-B036-40CD-8226-95D2E12E4466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF88E8B9-E357-4BA8-A932-B49B8FBE4685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF88E8B9-E357-4BA8-A932-B49B8FBE4685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF88E8B9-E357-4BA8-A932-B49B8FBE4685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF88E8B9-E357-4BA8-A932-B49B8FBE4685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04397684-D1C5-45A7-A4EC-CF43B9B4DB0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04397684-D1C5-45A7-A4EC-CF43B9B4DB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04397684-D1C5-45A7-A4EC-CF43B9B4DB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04397684-D1C5-45A7-A4EC-CF43B9B4DB0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

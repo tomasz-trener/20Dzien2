@@ -24,15 +24,35 @@ namespace P02ZadaniePogoda
                 WebClient wc = new WebClient();
                 string dane = wc.DownloadString(adres);
 
-                int indx = dane.IndexOf(szukanyZnak);
-                int aktualnaPozycja = indx;
+                try
+                {
+                    int indx = dane.IndexOf(szukanyZnak);
+                    int aktualnaPozycja = indx;
+                    int liczbaIteracji = 0;
 
-                while (dane.Substring(aktualnaPozycja, 1) != znakKoncowy)
-                    aktualnaPozycja--;
+                    while (dane.Substring(aktualnaPozycja, 1) != znakKoncowy)
+                    {
+                        liczbaIteracji++;
+                        aktualnaPozycja--;
+                        if (liczbaIteracji>4)
+                            throw new Exception();      
+                    }
 
-                string wynik = dane.Substring(aktualnaPozycja + 1, indx - aktualnaPozycja + 1);
+                    //int i;
+                    //for (i = indx; dane.Substring(i, 1) != znakKoncowy; i--)
+                    //{
 
-                Console.WriteLine(wynik);
+                    //}
+
+
+                    string wynik = dane.Substring(aktualnaPozycja + 1, indx - aktualnaPozycja + 1);
+                    Console.WriteLine(wynik);
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Nie udało się pobrać temperatury");
+                    continue;
+                }              
             }
             
 
