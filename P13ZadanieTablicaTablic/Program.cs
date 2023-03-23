@@ -33,6 +33,15 @@ namespace P13ZadanieTablicaTablic
                 Console.WriteLine(string.Join(" ",tw));
 
 
+            // wyswietlenie bez join
+            foreach (var tw in tab)
+            {
+                foreach (var k in tw)
+                    Console.Write(k + " ");
+
+                Console.WriteLine();
+            }
+
             Console.ReadKey();
 
         }
