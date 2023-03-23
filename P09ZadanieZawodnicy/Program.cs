@@ -22,8 +22,10 @@ namespace P09ZadanieZawodnicy
             WebClient wc = new WebClient();
             string dane = wc.DownloadString(sciezka);
 
+            string[] tab = new string[1] { "\r\n" };
+
             string[] wiersze=
-                dane.Split(new string[1] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
+                dane.Split(tab, StringSplitOptions.RemoveEmptyEntries);
 
             List<string> zawodnicy = new List<string>();
             for (int i = 1; i < wiersze.Length; i++)
