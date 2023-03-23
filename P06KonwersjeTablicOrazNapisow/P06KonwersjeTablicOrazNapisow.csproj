@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1B06CEA2-4FE1-4DB7-B14B-7A86A55FDC29}</ProjectGuid>
+    <ProjectGuid>{85477828-0F6E-4B90-ACA5-D8D7E1A42254}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>P05ZadanieTablice</RootNamespace>
-    <AssemblyName>P05ZadanieTablice</AssemblyName>
+    <RootNamespace>P06KonwersjeTablicOrazNapisow</RootNamespace>
+    <AssemblyName>P06KonwersjeTablicOrazNapisow</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,9 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="zadanie.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

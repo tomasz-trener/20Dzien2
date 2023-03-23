@@ -1,0 +1,6 @@
+Proszê rozwin¹æ projekt numer 5 w taki sposób, aby ka¿dorazowo, 
+kiedy pobierana jest temperatura dla miasta, jej wartoœæ bêdzie zapisywana na liœcie.
+
+Po ka¿dym pobraniu temperatury program powinien wyœwietlaæ œredni¹ temperaturê z aktualnej listy
+(wraz z nazwami wczeœniej wczytanych miast)
+

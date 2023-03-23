@@ -1,0 +1,11 @@
+    
+    1) Wykorzystuj¹c WebClient, wczytaj wszystkie wiersze z pliku podanego pod 
+    adresem http://tomaszles.pl/wp-content/uploads/2019/06/zawodnicy.txt i zapisz je do tablicy stringów.
+
+    2) Poproœ u¿ytkownika o wprowadzenie nazwy kraju, dla którego chcesz wygenerowaæ listê zawodników. 
+    Przyk³adowo, jeœli u¿ytkownik wprowadzi "pol", program powinien wygenerowaæ listê zawodników z Polski.
+
+    3) Na podstawie nazwy kraju, wygeneruj nowy plik, który bêdzie zawiera³ listê imion i nazwisk
+    zawodników z danego kraju. 
+    Nazwa pliku powinna byæ sformatowana w nastêpuj¹cy sposób: "{nazwa kraju}.txt". 
+    Na przyk³ad, jeœli u¿ytkownik wprowadzi³ "pol", nazwa pliku wynikowego powinna byæ "pol.txt".
